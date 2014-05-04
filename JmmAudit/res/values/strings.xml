@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Domashno</string>
+    <string name="action_settings">Settings</string>
+    <string name="fragmentButton">Fragment Demo</string>
+    <string name="sqliteButton">SQLite Demo</string>
+    <string name="detailsFragment">Initial Details Fragment Text</string>
+    <string name="updateFragment">Click to Update</string>
+    <string name="activityLifeCycleButton">Activity Lifecycle Demo</string>
+    <string name="displayActivityLifecycleEvents">Activity Lifecycle events:</string>
+    <string name="intentsButton">Intents Demo</string>
+    <string name="fetchButtonText">Pick a photo from the gallery</string>
+    <string name="fullImgDesc">Img description</string>
+    <string name="viewImageButtonText">Use custom intent</string>
+    <string name="contentProvider">Content Provider Demo</string>
+    <string name="pickTelNum">Pick a tel. number</string>
+    <string name="welcomeMsg">Display Welcome Toast?</string>
+    <string name="openPreferences">Set Preferences</string>
+    <string name="enterUsername">Enter username</string>
+    <string name="prefCheckBoxTitle">Set Welcome Toast ON</string>
+    <string name="MapsButton">Maps Demo</string>
+    <string name="calculateDistanceButton">Calculate distance between markers</string>
+    <string name="resetMap">Restart markers</string>
+    <string name="insertFirstName">Insert First Name</string>
+    <string name="insertLastName">Insert Last Name</string>
+    <string name="submit">Add new Entry</string>
+    <string name="viewItems">View Items</string>
+    <string name="getBack">Back</string>
+    <string name="title_activity_notification_sub">NotificationSubActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_notification">Notification</string>
+
+</resources>

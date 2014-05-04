@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <!-- android:background="@color/MidnightBlue" -->
+       
+      <Button
+        android:id="@+id/activityLifecycleButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"       
+        android:text="Lifcycle/async" >
+    </Button>
+
+    <Button
+        android:id="@+id/fragmentActivityButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"        
+        android:text="Fragment/horisontal" >
+    </Button>
+
+    <Button
+        android:id="@+id/intentActivityButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"        
+        android:text="Intents" >
+    </Button>
+
+  
+
+    <Button
+        android:id="@+id/contentProviderButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"       
+        android:text="ContentProvider/CustomList" >
+    </Button>
+    
+    
+
+
+    <Button
+        android:id="@+id/sqliteButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"        
+        android:text="SqlLite/Service" >
+    </Button>
+    
+    <Button
+        android:id="@+id/NotifyMe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"       
+        android:text="Notifications" >
+    </Button>
+    <Button
+        android:id="@+id/btnSensor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"       
+        android:text="Sensor" >
+    </Button>
+
+</LinearLayout>

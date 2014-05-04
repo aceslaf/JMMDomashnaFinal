@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/fetchImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"       
+        android:text="get contact adr" >
+    </Button>
+
+    <Button
+        android:id="@+id/ViewFullScreenButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fetchImageButton"
+        android:layout_marginLeft="20dp"        
+        android:layout_marginRight="20dp"        
+        android:text="@string/viewImageButtonText" >
+    </Button>
+
+    <ImageView
+        android:id="@+id/fetchedImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ViewFullScreenButton"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:contentDescription="@drawable/ic_launcher" >
+    </ImageView>
+
+</RelativeLayout>
